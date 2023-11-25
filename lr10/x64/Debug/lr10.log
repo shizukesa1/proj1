@@ -1,0 +1,3 @@
+﻿  lr10.cpp
+C:\Users\USER_PC\source\repos\lr10\lr10\lr10.cpp(10,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  lr10.vcxproj -> C:\Users\USER_PC\source\repos\lr10\x64\Debug\lr10.exe
