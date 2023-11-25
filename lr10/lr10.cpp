@@ -11,7 +11,7 @@ int main()
     const int m = 5;
     const int n = 5;
     int mas[n][m];
-    int max;
+    int min;
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
             mas[i][j] = rand() % 45 - 13;
@@ -24,17 +24,17 @@ int main()
         }
     }
     cout << "*************************************" << endl;
-    max = mas[0][0];
+    min = mas[0][0];
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
-            if (mas[i][j] > max) {
-                max = mas[i][j];
+            if (mas[i][j] < min) {
+                min = mas[i][j];
             }
         }
     }
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
-            if (mas[i][j] == max) {
+            if (mas[i][j] == min) {
                 mas[i][j] = 0;
             }
             cout << setw(4) << mas[i][j];
