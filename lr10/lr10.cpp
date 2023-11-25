@@ -23,23 +23,4 @@ int main()
         for (int j = 0; j < m; j++) {
         }
     }
-    cout << "*************************************" << endl;
-    min = mas[0][0];
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            if (mas[i][j] < min) {
-                min = mas[i][j];
-            }
-        }
-    }
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            if (mas[i][j] == min) {
-                mas[i][j] = 0;
-            }
-            cout << setw(4) << mas[i][j];
-        }
-        cout << endl;
-    }
-    return 0;
 }
