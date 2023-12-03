@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    cout <<"add code for lr 9"
     double a, b, c, x, F;
     cout << "Enter a" << endl;
     cin >> a;
